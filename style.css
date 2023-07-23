@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  background: #535971;
+}
+
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+header h1 {
+  font-family: Staatliches;
+  font-size: 48px;
+
+  margin-top: 140px;
+
+  color: #fff;
+}
+
+header p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  width: 417px;
+
+  margin-top: 18px;
+}
+
+form {
+  margin-top: 58px;
+  background: #fff;
+  border-radius: 20px 20px 0px 0px;
+
+  min-height: 300px;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e6e6f0;
+}
+
+.fieldset-wrapper {
+  font-size: 34px;
+  line-height: 34px;
+
+  color: #535971;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #4e4958;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.fieldset-wrapper legend {
+  font-family: "Staatliches", cursive;
+}
+
+.input-wrapper input {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid var(--back-lines-in-white, #e6e6f0);
+  background: var(--shapes-02, #fafafc);
+  width: 300px;
+  height: 56px;
+}
+
+#email,
+#password,
+#mentor {
+  width: 622px;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  margin-top: 36px;
+  margin-bottom: 8px;
+  color: #4e4958;
+}
+
+.input-wrapper label span {
+  color: #c1bccc;
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.fieldset-wrapper section {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+#infomentor,
+#horarios {
+  padding-top: 30px;
+}
+
+#mentoria {
+  border: none;
+  margin-top: 32px;
+  margin-bottom: 11px;
+}
+
+.col3 {
+  display: flex;
+  gap: 30px;
+}
+
+.fieldset-wrapper section #end,
+#start {
+  width: 140px;
+}
+
+footer {
+  width: 750px;
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+  height: 160px;
+}
+
+footer .button {
+  width: 608px;
+  align-items: center;
+  padding: 15px 40px;
+  margin: 52px 72px 52px 72px;
+
+  background: #ff5374;
+  border-radius: 20px;
+
+  color: #fff;
+  font-family: Staatliches;
+  font-size: 20px;
+  line-height: 26px;
+  border: 0;
+}
+
+.button:hover {
+  background: #760c21;
+}
